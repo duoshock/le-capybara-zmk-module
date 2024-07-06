@@ -104,7 +104,13 @@
 	        , <&left_mux 2 0>
 	        , <&left_mux 3 0>
 	        , <&left_mux 4 0>
+            , <&left_mux 5 0>
+            , <&left_mux 6 0>
+            , <&left_mux 7 0>
+            , <&right_mux 0 0>
+            , <&right_mux 1 0>
 	        , <&right_mux 2 0>
+            , <&right_mux 3 0>
 	        , <&right_mux 4 0>
 	        , <&right_mux 6 0>
 	        , <&right_mux 7 0>
