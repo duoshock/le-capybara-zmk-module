@@ -47,8 +47,9 @@
 &matrix {
     strobe-gpios
         = <&gpio1 0  (GPIO_ACTIVE_HIGH| NRF_GPIO_DRIVE_H0H1)>
-        , <&gpio1 10 (GPIO_ACTIVE_HIGH| NRF_GPIO_DRIVE_H0H1)>
         , <&gpio0 3  (GPIO_ACTIVE_HIGH| NRF_GPIO_DRIVE_H0H1)>
+        , <&gpio1 10 (GPIO_ACTIVE_HIGH| NRF_GPIO_DRIVE_H0H1)>
+        , <&gpio1 6 (GPIO_ACTIVE_HIGH| NRF_GPIO_DRIVE_H0H1)>
         , <&gpio1 4  (GPIO_ACTIVE_HIGH| NRF_GPIO_DRIVE_H0H1)>
         ;
 
