@@ -3,13 +3,13 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if BOARD_LPGALAXY_LE_ZAPYBARA
+if BOARD_FC660C
 
 config BOARD
     default "lpgalaxy_le_zapybara"
 
 config ZMK_KEYBOARD_NAME
-    default "Le Zapybara"
+    default "FC660C BLE"
 
 config ZMK_SLEEP
 	select ZMK_ADXL362_AWAKE_TRIGGER_SLEEP
