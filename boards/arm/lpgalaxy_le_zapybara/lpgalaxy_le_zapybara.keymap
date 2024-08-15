@@ -27,14 +27,5 @@
                 &kp LCTRL  &kp LWIN   &kp LALT       &mo NAV       &kp SPACE       &mo NAV    &kp RCTRL  &kp RWIN    &kp RALT       &kp LEFT      &kp DOWN      &kp RIGHT
             >;
         };
-        nav_layer {
-            bindings = <
-                &kp HOME     &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12      &kp trans     &kp DEL       &kp trans
-                &kp END             &kp PG_UP &kp UP &kp PG_DN &kp LBKT &kp RBKT &trans &kp PG_UP &kp UP &kp PG_DN &trans &trans &trans           &trans        &kp DEL
-                &kp ENTER             &kp LEFT &kp DOWN &kp RIGHT &kp LA(LBKT) &kp LA(RBKT) &trans &kp LEFT &kp DOWN &kp RIGHT &trans &trans      &trans
-                &kp LSHFT                   &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH             &kp RSHIFT    &kp UP
-                &trans      &trans      &trans       &trans          &trans          &trans         &trans     &trans     &trans    &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP
-            >;
-        };
     }; 
 };
