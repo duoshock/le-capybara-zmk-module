@@ -47,8 +47,8 @@
     };
 
 / {
-    model = "Le Zapybara";
-    compatible = "sporkus,le_zapybara", "nordic,nrf52840";
+    model = "FC660C";
+    compatible = "fc660c", "nordic,nrf52840";
 
     chosen {
         zephyr,code-partition = &code_partition;

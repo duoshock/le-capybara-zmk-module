@@ -6,7 +6,7 @@
 if BOARD_FC660C
 
 config BOARD
-    default "lpgalaxy_le_zapybara"
+    default "fc660c"
 
 config ZMK_KEYBOARD_NAME
     default "FC660C BLE"
