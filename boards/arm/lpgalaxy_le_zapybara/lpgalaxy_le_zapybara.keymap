@@ -10,10 +10,10 @@
 #include <dt-bindings/zmk/backlight.h>
 
 #define QWERTY 0
-#define NAV_L 1
-#define NUM_L 2
-#define MED_L 3
-#define FUN_L 4
+#define NAV 1
+#define NUM 2
+#define MED 3
+#define FUN 4
 
 / {
     keymap {
@@ -25,7 +25,7 @@
                 &kp TAB            &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT                       &kp BSLH      &kp DEL
                 &kp BSPC                &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI &kp SQT                           &kp RET
                 &kp LSHFT                   &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH             &kp RSHIFT    &kp UP
-                &kp LCTRL  &kp LWIN   &kp LALT       &mo NAV       &kp SPACE       &mo NAV    &kp RCTRL  &kp RWIN    &kp RALT       &kp LEFT      &kp DOWN      &kp RIGHT
+                &kp LCTRL  &kp LWIN   &kp LALT       &mo NAV       &kp SPACE       &mo NAV    &kp RALT  &kp RWIN    &kp RCTRL       &kp LEFT      &kp DOWN      &kp RIGHT
             >;
         };
     }; 
