@@ -1,0 +1,11 @@
+file_format: "1"
+id: fc660c_ble
+name: FC660C
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+url: https://github.com/sporkus/le_capybara_keyboard
