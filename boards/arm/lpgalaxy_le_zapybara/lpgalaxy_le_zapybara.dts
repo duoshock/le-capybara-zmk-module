@@ -54,8 +54,8 @@
         zephyr,code-partition = &code_partition;
         zephyr,sram = &sram0;
         zephyr,flash = &flash0;
-	zerhyr,console = &cdc_acm_uart;
-	zerhyr,shell-uart = &cdc_acm_uart;
+	    zerhyr,console = &cdc_acm_uart;
+	    zerhyr,shell-uart = &cdc_acm_uart;
         zmk,battery = &vbatt;
         zmk,kscan = &matrix;
         zmk,matrix_transform = &transform;

@@ -43,7 +43,7 @@
                 &kp HOME     &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12      &trans        &kp DEL       &trans
                 &kp END             &kp PG_UP &kp UP &kp PG_DN &kp LBKT &kp RBKT &trans &kp PG_UP &kp UP &kp PG_DN &trans &trans &trans           &trans        &kp DEL
                 &kp ENTER             &kp LEFT &kp DOWN &kp RIGHT &kp LA(LBKT) &kp LA(RBKT) &trans &kp LEFT &kp DOWN &kp RIGHT &trans &trans      &trans
-                &kp LSHFT                   &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH             &kp RSHIFT    &kp UP
+                &trans        &kp RC(MINUS) &kp RC(EQUAL) &kp RS(SLASH) &kp EQUAL &kp MINUS &trans &trans &trans &trans &trans          &trans    &trans
                 &trans      &trans      &trans       &trans          &trans          &trans         &trans     &trans     &trans    &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP
             >;
         };
