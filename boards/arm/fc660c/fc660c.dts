@@ -47,7 +47,7 @@
     };
 
 / {
-    model = "Le Zapybara";
+    model = "fc660c";
     compatible = "sporkus,le_zapybara", "nordic,nrf52840";
 
     chosen {
