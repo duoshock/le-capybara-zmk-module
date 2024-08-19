@@ -14,9 +14,9 @@
 ---
 include:
   - board: fc660c
-  - board: fc660c
-    snippet: enable_ec_calibrator
-    artifact-name: fc660c_calibrator
-  - board: fc660c
-    snippet: zmk-usb-logging
-    artifact-name: fc660c_usb-logging
+#  - board: fc660c
+#    snippet: enable_ec_calibrator
+#    artifact-name: fc660c_calibrator
+#  - board: fc660c
+#    snippet: zmk-usb-logging
+#    artifact-name: fc660c_usb-logging
