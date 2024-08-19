@@ -3,7 +3,7 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config BOARD_LPGALAXY_LE_ZAPYBARA
+config BOARD_FC660C
     bool "Le Zapybara"
     select ZMK_KSCAN_EC_MATRIX_FAKE_OPEN_DRAIN
     imply ZMK_KSCAN_EC_MATRIX_DYNAMIC_POLL_RATE
