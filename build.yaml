@@ -21,11 +21,12 @@ include:
   #  snippet: enable_ec_calibrator
   #   artifact-name: sporkus_le_capybara_calibrator
 
-  - board: lpgalaxy_le_zapybara
-  - board: lpgalaxy_le_zapybara
-    snippet: enable_ec_calibrator
-    artifact-name: lpgalaxy_le_zapybara_calibrator
-  - board: lpgalaxy_le_zapybara
-    snippet: zmk-usb-logging
-    artifact-name: lpgalaxy_le_zapybara_usb-logging
-  # - board: fc660c
+  #- board: lpgalaxy_le_zapybara
+  #- board: lpgalaxy_le_zapybara
+  #  snippet: enable_ec_calibrator
+  #  artifact-name: lpgalaxy_le_zapybara_calibrator
+  #- board: lpgalaxy_le_zapybara
+  #  snippet: zmk-usb-logging
+  #  artifact-name: lpgalaxy_le_zapybara_usb-logging
+
+  - board: fc660c
