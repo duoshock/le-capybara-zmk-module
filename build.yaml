@@ -14,12 +14,12 @@
 ---
 include:
   - board: fc660c
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Steel"'
-    artifact-name: fc660c_h6_steel
-  - board: fc660c
-    snippet: enable_ec_calibrator
-    artifact-name: fc660c_calibrator
-  - board: fc660c
-    snippet: zmk-usb-logging
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"FC660C Debug"'
-    artifact-name: fc660c_usb-logging
+  #   cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Steel"'
+  #   artifact-name: fc660c_h6_steel
+  # - board: fc660c
+  #   snippet: enable_ec_calibrator
+  #   artifact-name: fc660c_calibrator
+  # - board: fc660c
+  #   snippet: zmk-usb-logging
+  #   cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"FC660C Debug"'
+  #   artifact-name: fc660c_usb-logging

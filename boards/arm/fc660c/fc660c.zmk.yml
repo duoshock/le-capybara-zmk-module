@@ -5,8 +5,7 @@ type: board
 arch: arm
 features:
   - keys
-  - encoders
 outputs:
   - usb
   - ble
-url: https://github.com/sporkus/le_capybara_keyboard
+url:
