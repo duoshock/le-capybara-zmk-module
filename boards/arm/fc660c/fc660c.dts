@@ -48,7 +48,7 @@
 
 / {
     model = "fc660c";
-    compatible = "sporkus,le_zapybara", "nordic,nrf52840";
+    compatible = "fc660c", "nordic,nrf52840";
 
     chosen {
         zephyr,code-partition = &code_partition;
