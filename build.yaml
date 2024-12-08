@@ -16,6 +16,9 @@ include:
   - board: fc660c
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti"'
   - board: fc660c
+    snippet: fc660c-thumb-keys
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS"'
+  - board: fc660c
     snippet: enable_ec_calibrator
     cmake-args: -DCONFIG_ZMK_KSCAN_EC_MATRIX_SETTINGS_INIT_LOAD=n
     artifact-name: fc660c_calibrator

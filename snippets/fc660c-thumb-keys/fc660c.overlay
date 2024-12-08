@@ -1,0 +1,9 @@
+&thumb_keys_matrix { status = "okay"; };
+&matrix { status = "disabled"; };
+
+/ {
+	chosen {
+		zmk,matrix-transform = &thumb_keys_transform;
+		zmk,kscan = &thumb_keys_matrix;
+	};
+};

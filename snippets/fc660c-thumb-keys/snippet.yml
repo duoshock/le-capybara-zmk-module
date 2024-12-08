@@ -1,0 +1,5 @@
+name: fc660c-thumb-keys
+boards:
+  fc660c:
+    append:
+      EXTRA_DTC_OVERLAY_FILE: fc660c.overlay
