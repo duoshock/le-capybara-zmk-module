@@ -18,7 +18,7 @@ include:
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti"'
     artifact-name: heavy6_ti
   - board: fc660c
-    snippet: "studio-rpc-usb-uart"
+    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS"'
     artifact-name: heavy6_vs
   # - board: fc660c
