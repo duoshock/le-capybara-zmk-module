@@ -14,6 +14,7 @@
 ---
 include:
   - board: fc660c
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti"'
     artifact-name: heavy6_ti
   # - board: fc660c
   #   snippet: fc660c-thumb-keys
