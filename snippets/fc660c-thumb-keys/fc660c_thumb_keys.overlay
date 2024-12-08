@@ -1,4 +1,3 @@
-
 / {
     chosen {
         zmk,physical-layout = &thumb_keys_layout;

@@ -13,18 +13,18 @@
 #
 ---
 include:
-  # - board: fc660c
-  #   snippet: studio-rpc-usb-uart
-  #   cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti"'
-  #   artifact-name: heavy6_ti
+  - board: fc660c
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti"'
+    artifact-name: heavy6_ti
   - board: fc660c
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS"'
     artifact-name: heavy6_vs
   - board: fc660c
-    snippet: "studio-rpc-usb-uart;enable_ec_calibrator"
-    #  cmake-args: -DCONFIG_ZMK_KSCAN_EC_MATRIX_SETTINGS_INIT_LOAD=n
-    artifact-name: fc660c_calibrator
+    snippet: "fc660c_thumb_keys;enable_ec_calibrator"
+    cmake-args: -DCONFIG_ZMK_KSCAN_EC_MATRIX_SETTINGS_INIT_LOAD=n
+    artifact-name: heavy6_vs_calibrator
 
   # - board: sporkus_le_capybara
   # - board: sporkus_le_capybara
