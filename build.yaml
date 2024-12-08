@@ -18,8 +18,8 @@ include:
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti"'
     artifact-name: heavy6_ti
   - board: fc660c
-    snippet: fc660c-thumb-keys
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS"' -DKEYMAP=fc660c_thumb_keys.keymaps
+    snippet: "studio-rpc-usb-uart;fc660c-thumb-keys"
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS"' -DKEYMAP=fc660c_thumb_keys.keymap
     artifact-name: heavy6_vs
   # - board: fc660c
   #   snippet: enable_ec_calibrator
