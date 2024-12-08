@@ -221,7 +221,7 @@
             compatible = "zmk,physical-layout";
         display-name = "Thumb keys";
         transform = <&thumb_keys_transform>;
-        kscan = <&thumb_keys_matrix>;
+        kscan = <&matrix>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
