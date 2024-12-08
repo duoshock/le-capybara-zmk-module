@@ -91,7 +91,7 @@
      zerhyr,console = &cdc_acm_uart;
      zerhyr,shell-uart = &cdc_acm_uart;
          zmk,battery = &vbatt;
-     zmk,physical-layout = &thumb_keys_layout;
+     zmk,physical-layout = &layout;
      };
  
      vbatt: vbatt {
