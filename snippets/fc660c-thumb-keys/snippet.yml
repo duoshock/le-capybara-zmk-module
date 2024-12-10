@@ -3,6 +3,3 @@ boards:
   fc660c:
     append:
       EXTRA_DTC_OVERLAY_FILE: fc660c_thumb_keys.overlay
-  fc660c_thumb_keys:
-    append:
-      EXTRA_DTC_OVERLAY_FILE: fc660c_thumb_keys.overlay

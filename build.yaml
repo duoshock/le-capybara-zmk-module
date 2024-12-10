@@ -22,7 +22,7 @@ include:
   #   cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS"'
   #   artifact-name: heavy6_vs
   - board: fc660c_thumb_keys
-    snippet: "fc660c-thumb-keys;enable_ec_calibrator"
+    snippet: enable_ec_calibrator
     cmake-args: -DCONFIG_ZMK_STUDIO=n
     artifact-name: heavy6_vs_calibrator
 
