@@ -21,6 +21,8 @@ include:
     snippet: enable_ec_calibrator
     cmake-args: -DCONFIG_ZMK_STUDIO=n
     artifact-name: heavy6_ti_calibrator
+  - board: fc660c
+    shield: settings_reset
 
   - board: fc660c_thumb_keys
     snippet: studio-rpc-usb-uart
@@ -30,6 +32,8 @@ include:
     snippet: enable_ec_calibrator
     cmake-args: -DCONFIG_ZMK_STUDIO=n
     artifact-name: heavy6_vs_calibrator
+  - board: fc660c_thumb_keys
+    shield: settings_reset
 
   # - board: sporkus_le_capybara
   # - board: sporkus_le_capybara
