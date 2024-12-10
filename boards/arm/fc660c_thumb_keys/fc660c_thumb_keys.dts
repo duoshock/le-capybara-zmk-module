@@ -112,7 +112,7 @@
             };
         };
 
-        transform: transform {
+        thumb_keys_transform: thumb_keys_transform {
             compatible = "zmk,matrix-transform";
             rows = <5>;
             columns = <15>;
@@ -125,7 +125,7 @@
             >;
         };
 
-        thumb_keys_transform: thumb_keys_transform {
+        transform: transform {
             compatible = "zmk,matrix-transform";
             rows = <5>;
             columns = <15>;
@@ -138,11 +138,11 @@
             >;
         };
 
-        layout: layout {
+        thumb_keys_layout: thumb_keys_layout {
             compatible = "zmk,physical-layout";
-            display-name = "Standard";
-            transform = <&transform>;
-            kscan = <&matrix>;
+            display-name = "Thumb Keys_";
+            transform = <&thumb_keys_transform>;
+            kscan = <&thumb_keys_matrix>;
             keys  //                     w   h    x    y     rot    rx    ry
                 = <&key_physical_attrs 100 100    0    0       0     0     0>
                 , <&key_physical_attrs 100 100  100    0       0     0     0>
@@ -214,11 +214,11 @@
                 ;
             };
 
-        thumb_keys_layout: thumb_keys_layout {
+        layout: layout {
             compatible = "zmk,physical-layout";
-            display-name = "Thumb keys";
-            transform = <&thumb_keys_transform>;
-            kscan = <&thumb_keys_matrix>;
+            display-name = "Standard";
+            transform = <&transform>;
+            kscan = <&matrix>;
             keys  //                     w   h    x    y     rot    rx    ry
                 = <&key_physical_attrs 100 100    0    0       0     0     0>
                 , <&key_physical_attrs 100 100  100    0       0     0     0>
@@ -296,9 +296,9 @@
 
         MUX(right_mux)
 
-        EC_MATRIX(matrix, (BIT(3) + BIT(4) + BIT(6) + BIT(7) +BIT(8)))
+        EC_MATRIX(thumb_keys_matrix, (BIT(3) + BIT(4) + BIT(6) + BIT(7) +BIT(8)))
 
-        EC_MATRIX(thumb_keys_matrix, (BIT(4) + BIT(6) + BIT(8)))
+        EC_MATRIX(matrix, (BIT(4) + BIT(6) + BIT(8)))
 
     };
 
