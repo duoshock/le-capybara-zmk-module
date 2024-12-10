@@ -21,9 +21,9 @@ include:
   #   snippet: studio-rpc-usb-uart
   #   cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS"'
   #   artifact-name: heavy6_vs
-  - board: fc660c
-    snippet: "fc660c-thumb-keys;enable_ec_calibrator"
-    cmake-args: "-DCONFIG_ZMK_STUDIO=n"
+  - board: fc660c_thumb_keys
+    snippet: enable_ec_calibrator
+    cmake-args: -DCONFIG_ZMK_STUDIO=n
     artifact-name: heavy6_vs_calibrator
 
   # - board: sporkus_le_capybara

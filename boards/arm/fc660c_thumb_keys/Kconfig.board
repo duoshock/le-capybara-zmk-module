@@ -1,0 +1,11 @@
+# Le Zapybara board configuration
+
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD_FC660C_THUMB_KEYS
+    bool "fc660c_thumb_keys"
+    select ZMK_KSCAN_EC_MATRIX_FAKE_OPEN_DRAIN
+    imply ZMK_KSCAN_EC_MATRIX_DYNAMIC_POLL_RATE
+    imply SPI
+    depends on SOC_NRF52840_QIAA
