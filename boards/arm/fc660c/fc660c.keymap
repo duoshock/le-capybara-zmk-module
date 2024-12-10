@@ -8,10 +8,15 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&lt {
+    tapping-term-ms = <180>;
+};
+
 #define DEFAULT 0
-#define NAV 1
-#define FN 2
-#define BT 3
+#define SPACEKEY 1
+#define NAV 2
+#define FN 3
+#define BT 4
 
 / {
     macros {
@@ -35,7 +40,18 @@
                 &kp TAB            &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT                       &kp BSLH      &mo NAV
                 &kp BSPC                &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI &kp SQT                           &kp RET
                 &kp LSHFT                   &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH             &kp RSHIFT    &kp UP
-                &kp LCTRL  &kp LWIN   &kp LALT                   &kp SPACE                    &kp RALT  &kp RWIN    &kp RCTRL       &kp LEFT      &kp DOWN      &kp RIGHT
+                &kp LCTRL  &kp LWIN   &kp LALT                   &lt NAV SPACE                &kp RALT  &kp RWIN    &kp RCTRL       &kp LEFT      &kp DOWN      &kp RIGHT
+            >;
+        };
+
+        spacekey_layer {
+            label = "Spacekey";
+            bindings = <
+                &trans     &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                         &trans        &trans
+                &trans          &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans                                        &trans        &trans
+                &trans            &trans &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans &trans                                     &trans
+                &trans                  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans                                              &trans        &trans
+                &trans      &trans      &trans                              &kp SPACE                              &trans     &trans     &trans            &trans        &trans     &trans
             >;
         };
 
@@ -56,8 +72,8 @@
                 &studio_unlock    &trans &trans &trans &pound_sign &trans &trans &trans &kp KP_ASTERISK &kp KP_LPAR &kp KP_RPAR &kp KP_MINUS &kp KP_PLUS &trans    &kp DEL       &trans
                 &trans        &trans &trans &trans &trans &trans &trans &trans &kp INS &trans &kp PSCRN &trans &trans                                      &trans        &kp DEL
                 &trans              &trans &kp SLCK &trans &trans &trans &trans &trans &trans &trans &trans &trans                                         &kp KP_ENTER
-                &trans                  &trans &trans &kp CAPS &trans &trans &kp KP_NLCK &trans &kp KP_COMMA &kp KP_DOT &kp KP_SLASH                       &kp RSHIFT    &kp UP
-                &trans      &trans      &trans                              &mo BT                                 &trans     &trans     &trans            &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP
+                &trans                  &trans &trans &kp CAPS &trans &trans &kp KP_NLCK &trans &kp KP_COMMA &kp KP_DOT &kp KP_SLASH                       &mo BT        &kp UP
+                &trans      &trans      &trans                              &trans                                 &trans     &trans     &trans            &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP
             >;
         };
         
@@ -68,7 +84,7 @@
                 &none           &none &none &none &none &none &none &none &none &none &none &none &none                                    &none             &none
                 &none               &none &none &none &none &none &none &none &none &none &none &none                                      &none
                 &none                   &none &none &none &none &none &none &none &none &none &none                                        &none             &none
-                &none     &none      &none                                &none                                  &none     &none     &none          &none    &none   &none
+                &none     &none      &none                                &tog SPACEKEY                                &none     &none     &none    &none    &none   &none
             >;
         };
     }; 
