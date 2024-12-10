@@ -1,3 +1,6 @@
+&thumb_keys_matrix { status = "okay"; };
+&matrix { status = "disabled"; };
+
 / {
     chosen {
         zmk,physical-layout = &thumb_keys_layout;
