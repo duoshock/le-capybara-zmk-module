@@ -296,11 +296,11 @@
             ;
         };
 
-        MUX(left_mux)
-        MUX(right_mux)
+        MUX(left_mux);
+        MUX(right_mux);
 
-        EC_MATRIX(matrix, (BIT(3) + BIT(4) + BIT(6) + BIT(7) +BIT(8)))
-        EC_MATRIX(thumb_keys_matrix, (BIT(4) + BIT(6) + BIT(8)))
+        EC_MATRIX(matrix, (BIT(3) + BIT(4) + BIT(6) + BIT(7) +BIT(8)));
+        EC_MATRIX(thumb_keys_matrix, (BIT(4) + BIT(6) + BIT(8)));
     };
 
     &pinctrl {
