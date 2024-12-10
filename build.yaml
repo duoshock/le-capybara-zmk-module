@@ -22,6 +22,7 @@ include:
     artifact-name: heavy6_ti
   - board: fc660c
     snippet: enable_ec_calibrator
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti Cal"'
     artifact-name: heavy6_ti_calibrator
   - board: fc660c
     shield: settings_reset
