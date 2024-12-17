@@ -28,6 +28,11 @@ include:
     artifact-name: heavy6_ti_calibrator
 
   - board: fc660c
+    snippet: zmk-usb-logging
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti Log"'
+    artifact-name: heavy6_ti_usblog
+
+  - board: fc660c
     shield: settings_reset
 
   ### thumbkeys
@@ -44,6 +49,11 @@ include:
     snippet: enable_ec_calibrator
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS Cal"'
     artifact-name: heavy6_vs_calibrator
+
+  - board: fc660c_thumb_keys
+    snippet: zmk-usb-logging
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS Log"'
+    artifact-name: heavy6_vs_usblog
 
   - board: fc660c_thumb_keys
     shield: settings_reset
