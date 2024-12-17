@@ -69,7 +69,7 @@
         fn_layer {
             label = "Fn";
             bindings = <
-                &studio_unlock    &trans &trans &trans &pound_sign &trans &trans &trans &kp KP_ASTERISK &kp KP_LPAR &kp KP_RPAR &kp KP_MINUS &kp KP_PLUS &trans    &kp DEL       &trans
+                &trans    &trans &trans &trans &pound_sign &trans &trans &trans &kp KP_ASTERISK &kp KP_LPAR &kp KP_RPAR &kp KP_MINUS &kp KP_PLUS &trans    &kp DEL       &trans
                 &trans        &trans &trans &trans &trans &trans &trans &trans &kp INS &trans &kp PSCRN &trans &trans                                      &trans        &kp DEL
                 &trans              &trans &kp SLCK &trans &trans &trans &trans &trans &trans &trans &trans &trans                                         &kp KP_ENTER
                 &trans                  &trans &trans &kp CAPS &trans &trans &kp KP_NLCK &trans &kp KP_COMMA &kp KP_DOT &kp KP_SLASH                       &mo BT        &kp UP
@@ -84,7 +84,7 @@
                 &none           &none &none &none &none &none &none &none &none &none &none &none &none                                    &none             &none
                 &none               &none &none &none &none &none &none &none &none &none &none &none                                      &none
                 &none                   &none &none &none &none &none &none &none &none &none &none                                        &none             &none
-                &none     &none      &none                                &tog SPACEKEY                                &none     &none     &none    &none    &none   &none
+                &studio_unlock     &none      &none                                &tog SPACEKEY                                &none     &none     &none    &none    &none   &none
             >;
         };
     }; 
