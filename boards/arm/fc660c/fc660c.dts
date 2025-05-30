@@ -77,7 +77,7 @@
             idle-polling-interval-ms = <3>;             \
             sleep-polling-interval-ms = <4>;            \
             dynamic-polling-interval;                   \
-            trigger-percentage = <80>;                  \
+            trigger-percentage = <20>;                  \
         };
 
     / {
