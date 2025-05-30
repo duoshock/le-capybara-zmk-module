@@ -27,10 +27,10 @@ include:
   #   cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti Cal"'
   #   artifact-name: heavy6_ti_calibrator
 
-  # - board: fc660c
-  #   snippet: zmk-usb-logging
-  #   cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti Log"'
-  #   artifact-name: heavy6_ti_usblog
+  - board: fc660c
+    snippet: zmk-usb-logging
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti Log"'
+    artifact-name: heavy6_ti_usblog
 
   # - board: fc660c
   #   shield: settings_reset
