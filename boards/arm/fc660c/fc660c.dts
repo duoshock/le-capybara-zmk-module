@@ -72,8 +72,8 @@
             matrix-warm-up-us = <500>;                  \
             adc-read-settle-us = <1>;                   \
             strobe-input-masks = <0 0 (BIT(13)) (BIT(12) + BIT(14)) _bottom_mask>;  \
-            trigger-percentage = <80>;                  \
             skip-startup-calibration;                   \
+            // trigger-percentage = <50>;                  \
         };
 
     / {
