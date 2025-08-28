@@ -15,21 +15,21 @@
 include:
   - board: fc660c
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti"' -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 ZMK"' -DCONFIG_ZMK_STUDIO=y
     artifact-name: heavy6_ti_studio
 
   - board: fc660c
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti"'
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 ZMK"'
     artifact-name: heavy6_ti
 
   - board: fc660c
     snippet: enable_ec_calibrator
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti Cal"'
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Cal"'
     artifact-name: heavy6_ti_calibrator
 
   - board: fc660c
     snippet: zmk-usb-logging
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Ti Log"'
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 Log"'
     artifact-name: heavy6_ti_usblog
 
   - board: fc660c
@@ -38,21 +38,21 @@ include:
   ## thumbkeys
   - board: fc660c_thumb_keys
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS"' -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 TK"' -DCONFIG_ZMK_STUDIO=y
     artifact-name: heavy6_vs_studio
 
   - board: fc660c_thumb_keys
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS"'
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 TK"'
     artifact-name: heavy6_vs
 
   - board: fc660c_thumb_keys
     snippet: enable_ec_calibrator
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS Cal"'
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 TK Cal"'
     artifact-name: heavy6_vs_calibrator
 
   - board: fc660c_thumb_keys
     snippet: zmk-usb-logging
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 VS Log"'
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME='"H6 TK Log"'
     artifact-name: heavy6_vs_usblog
 
   - board: fc660c_thumb_keys
